@@ -5,7 +5,7 @@ const BuenosAires = () => {
   return (
 
     <>
-      <Carousel/>
+      <Carousel />
 
       <div className="buenosaires">
         <div className="Started">
@@ -22,11 +22,13 @@ const BuenosAires = () => {
           </p>
           <p>3.50 €</p>
           <p>
-            Chorizo / <em>Chorizo Sausage</em>
+            Chorizo
+            <p><em>Chorizo Sausage</em></p>
           </p>
           <p>3.50 €</p>
           <p>
-            Morcilla / <em>Black pudding</em>
+            Morcilla
+            <p><em>Black pudding</em></p>
           </p>
           <p>3.50 €</p>
           <p>
@@ -36,32 +38,34 @@ const BuenosAires = () => {
           </p>
           <p>9.90 €</p>
           <p>
-            Gambas Pil-Pil /
-            <em> Pil-Pil Prawns (garlic, parsley and chili sauce)</em>
+            Gambas Pil-Pil: Ajo, peregil y salsa de guindilla
+            <p><em> Pil-Pil Prawns: Garlic, parsley and chili sauce</em></p>
           </p>
           <p>12.00 €</p>
           <p>
-            Molleja / <em>Sweetbread</em>
+            Molleja
+            <p><em>Sweetbread</em></p>
           </p>
           <p>12.00 €</p>
           <p>
             Nachos con queso fundido, salsa de jalapeño y
-            guacamole /
-            <em> Nachos with cheese fondue, jalapeno sauce, guacamole</em>
+            guacamole
+            <p><em> Nachos with cheese fondue, jalapeno sauce, guacamole</em></p>
           </p>
           <p>12.00 €</p>
           <p>
-            Tartar de carne (de solomillo argentino) /
-            <em> Beef tartare (argentinian fillet)</em>
+            Tartar de carne (de solomillo argentino)
+            <p><em> Beef tartare (argentinian fillet)</em></p>
           </p>
           <p>18.00 €</p>
           <p>
-            Carpaccio de ternera (de solomillo argentino) /
-            <em> Beef carpaccion (argentinian fillet)</em>
+            Carpaccio de ternera (de solomillo argentino)
+            <p><em> Beef carpaccion (argentinian fillet)</em></p>
           </p>
           <p>18.00 €</p>
           <p>
-            Jamón Ibérico /<em> Iberian Ham</em>
+            Jamón Ibérico
+            <p><em> Iberian Ham</em></p>
           </p>
           <p>19.00 €</p>
         </div>
@@ -86,10 +90,10 @@ const BuenosAires = () => {
             Ensalada de queso de cabra: Brotes tiernos, nueces, pasas de uva, queso de cabra, tomate cherry,
             crema de vinagre balsámico
             <p>
-            <em>Salad with goat cheese:
-              Fresh greens, nuts, raisins, goat cheese, cherry tomato, balsamic
-              vinegar cream
-            </em></p>
+              <em>Salad with goat cheese:
+                Fresh greens, nuts, raisins, goat cheese, cherry tomato, balsamic
+                vinegar cream
+              </em></p>
           </p>
           <p>12.00 €</p>
           <p>
@@ -106,8 +110,15 @@ const BuenosAires = () => {
 
         <div className="grill">
           <h2>Parrilla Argentina / Argentinian Grill </h2>
+          <p>Acompañados de patatas del chef y champiñones
+            <p><em>Accompanied by a side dish of jacket potato and mushrooms</em></p>
+          </p>
+          <br></br>
+
+
           <p>
-            Entraña de ternera / <em>Skirt steak</em> (250 grs / 8.8 oz.)
+            Entraña de ternera: 250 grs / 8.8 oz
+            <p><em>Skirt steak: 250 grs / 8.8 oz</em></p>
           </p>
           <p>14.00 €</p>
           <p>
@@ -124,7 +135,7 @@ const BuenosAires = () => {
             <p><em>Homemade beef burger: Tomato, fresh green, bacon, cheese, eggs, caramelized onions,
               mayonnaise, french fries
             </em><p>(200 gr. / 7 oz.)</p></p>
-            
+
           </p>
           <p>14.00 €</p>
           <p>
@@ -189,35 +200,35 @@ const BuenosAires = () => {
             Gambones / <em>King prawns</em>
           </p>
           <p>20.00 €</p>
-          </div>
+        </div>
 
-          <div className="sideDish">
-            <h2>Guarniciones / Side Dishes </h2>
-            <p>
-              Espárragos / <em>Asparagus</em>
-            </p>
-            <p>5.00 €</p>
-            <p>
-              Patata del Chef / <em>Chef’s Potatoes (Jacket potato)</em>
-            </p>
-            <p>5.00 €</p>
-            <p>
-              Patatas fritas / <em>French fries</em>
-            </p>
-            <p>5.00 €</p>
-            <p>
-              Pimientos del Padrón / <em>Small green peppers (Padrón Peppers)</em>
-            </p>
-            <p>5.00 €</p>
-            <p>
-              Cebolla salteada / <em>Sautéed Onions</em>
-            </p>
-            <p>5.00 €</p>
-            <p>
-              Champiñones salteados / <em>Sautéed mushrooms</em>
-            </p>
-            <p>5.00 €</p>
-          
+        <div className="sideDish">
+          <h2>Guarniciones / Side Dishes </h2>
+          <p>
+            Espárragos / <em>Asparagus</em>
+          </p>
+          <p>5.00 €</p>
+          <p>
+            Patata del Chef / <em>Chef’s Potatoes (Jacket potato)</em>
+          </p>
+          <p>5.00 €</p>
+          <p>
+            Patatas fritas / <em>French fries</em>
+          </p>
+          <p>5.00 €</p>
+          <p>
+            Pimientos del Padrón / <em>Small green peppers (Padrón Peppers)</em>
+          </p>
+          <p>5.00 €</p>
+          <p>
+            Cebolla salteada / <em>Sautéed Onions</em>
+          </p>
+          <p>5.00 €</p>
+          <p>
+            Champiñones salteados / <em>Sautéed mushrooms</em>
+          </p>
+          <p>5.00 €</p>
+
         </div>
 
         <div className="sauce">
@@ -273,9 +284,11 @@ const BuenosAires = () => {
         </div>
 
         <div>
-          <p>Servicio / Covered charged · 1.50 €</p>
-          <p>Precios IVA Incluído / VAT Included</p>
+          <p>IVA incluído Servicio no incluído - Pan y mantequilla €1.50</p>
+          <p><em>IVA included (tax) Service not included - Bread and butter €1.50</em></p>
         </div>
+
+
       </div>
     </>
   );

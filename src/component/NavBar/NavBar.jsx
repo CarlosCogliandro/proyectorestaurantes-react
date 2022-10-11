@@ -9,7 +9,7 @@ import {
 function NavBar() {
   return (
     <>
-      {["sm"].map((expand) => (
+      {["lg"].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb">
           <Container fluid>
             <Navbar.Brand href="/">
