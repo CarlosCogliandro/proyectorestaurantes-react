@@ -3,7 +3,9 @@ import { Form, Modal, Button } from "react-bootstrap";
 import "../Contacto/contacto-style.css";
 import Carousel2 from "../Carousel2/Carousel2";
 
+
 function MyVerticallyCenteredModal(props) {
+
   return (
     <Modal
       {...props}
@@ -55,7 +57,7 @@ function Contacto() {
         <h3>
           Si te gusto el contenido de la pagina, no dudes en enviarnos un mensaje.
         </h3>
-        <h4>Nos pondremos en contacto lo antes posible</h4>
+        <h5>Nos pondremos en contacto lo antes posible</h5>
         <Button
           variant="success"
           onClick={() => setModalShow(true)}

@@ -1,0 +1,8 @@
+.buenosaires{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin: 20px;
+    height: auto;
+}

@@ -3,7 +3,7 @@ import '../Carousel/carousel-style.css'
 
 function Carousels() {
   return (
-    <Carousel fade interval={4000} style={{height:'500px'}}>
+    <Carousel fade interval={4000}>
       <Carousel.Item>
         <img
           className="d-block w-100 img-carousel"

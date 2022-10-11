@@ -1,19 +1,18 @@
 .cards{
     display: flex;
     justify-content: center; 
-    height: auto;
 }
 
 .card{
-    width: 400px; 
+    width: auto;
     margin: 20px; 
-    text-align: center;
     align-items: center; 
+    height: auto;
 }
 
 .img-home{
-    width: 20rem;
-    height: 10rem;
+    width: auto;
+    height: auto;
     margin: 15px;
 }
 
@@ -28,7 +27,6 @@
 
     .card{
         width: auto; 
-        margin: 10px; 
         text-align: center;
         align-items: center; 
     }
