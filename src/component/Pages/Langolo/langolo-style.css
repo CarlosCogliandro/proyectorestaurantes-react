@@ -6,3 +6,25 @@
     margin: 20px;
     height: auto;
 }
+
+.banner-langolo{
+    display: flex;
+    justify-content: center;
+    background-image: url("http://langolomarbella.com/wp-content/uploads/2022/04/7L0A8859_1.jpg");
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .banner-langolo{
+        background-image: url(https://langolomarbella.com/wp-content/uploads/2022/04/7L0A8903-768x512.jpg);
+        background-size: contain;
+        width: 100%;
+
+    
+    } 
+    
+    .img-langolo{
+        width: 100%;
+}
+}

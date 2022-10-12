@@ -6,3 +6,23 @@
     margin: 20px;
     height: auto;
 }
+
+.banner-bsas{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://buenosairesmarbella.com/wp-content/uploads/2014/06/Buenos-Aires-Photo.png) ;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .banner-bsas{
+        background-image: url(https://buenosairesmarbella.com/wp-content/uploads/2014/06/Buenos-Aires-Marbella-Steak.jpg?id=1692);
+        background-size: contain;
+        width: 100%;
+    } 
+    
+    .img-bsas{
+        width: 70%;
+}
+}

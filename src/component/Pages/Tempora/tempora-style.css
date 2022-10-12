@@ -6,3 +6,25 @@
     margin: 20px;
     height: auto;
 }
+
+.banner-tempora{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://th.bing.com/th/id/R.9db53faa00367b15a1a30c40d706c60d?rik=zp25ofEnIZ9ErQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .banner-tempora{
+       background-image: url(https://langolomarbella.com/wp-content/uploads/2022/04/7L0A8708-768x512.jpg); 
+       width: 100%;
+    } 
+    
+    .img-tempora{
+        width: 100%;
+}
+}

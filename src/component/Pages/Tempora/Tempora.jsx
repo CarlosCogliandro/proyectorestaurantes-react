@@ -3,6 +3,9 @@ import "../Tempora/tempora-style.css";
 const Tempora = () => {
     return (
         <>
+        <div className="banner-tempora">
+            <img className='img-tempora' src="https://th.bing.com/th/id/R.f03d372dd8e4ade030b30bef1578878c?rik=q6wCA%2fA%2b5nQamg&riu=http%3a%2f%2fwww.temporarestaurant.com%2fwp-content%2fuploads%2f2017%2f03%2fTempora-Photo-Logo.png&ehk=ex4Z9xK9VeEiy36wrOuHrglstUwq3M%2bc5WkyylDeXbc%3d&risl=&pid=ImgRaw&r=0" />
+        </div>
 
             <div className='tempora'>
                 <div className="started">

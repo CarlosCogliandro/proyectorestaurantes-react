@@ -3,6 +3,11 @@ import "../Langolo/langolo-style.css";
 const Langolo = () => {
     return (
         <>
+        <div className="banner-langolo">
+            <img className='img-langolo' src="https://langolomarbella.com/wp-content/uploads/2022/04/logo-bl.png" />
+        </div>
+
+
             <div className="langolo">
                 <div className="started">
                     <h2>Para Empezar / Starters </h2>

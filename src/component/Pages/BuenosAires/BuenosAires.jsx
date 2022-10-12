@@ -5,7 +5,9 @@ const BuenosAires = () => {
   return (
 
     <>
-      <Carousel />
+    <div className="banner-bsas">
+      <img className='img-bsas' src="https://th.bing.com/th/id/R.9720afd4adec8849e069300bb50663b5?rik=jSI1TJzlf8%2fexQ&riu=http%3a%2f%2fbuenosairesmarbella.com%2fwp-content%2fuploads%2f2017%2f03%2fBuenos-Aires-Photos.png&ehk=ij7eFbqt5Dcrwrp3447Kw3sqTt%2fx7olbb%2f8f76L6D%2b4%3d&risl=&pid=ImgRaw&r=0" />
+      </div>
 
       <div className="buenosaires">
         <div className="Started">
